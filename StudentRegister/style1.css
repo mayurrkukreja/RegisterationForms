@@ -14,8 +14,9 @@ body{
 }
 .container{
     max-width: 700px;
-    width: 100%;
+    width: 60%;
     background: #fff;
+    position: absolute;
     padding: 25px 30px;
     border-radius: 5px;
 }
@@ -103,11 +104,22 @@ form .button{
     margin: 45px 0;
 }
 form .button input{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    outline: none;
+    font-weight: 690;
+    color: black;
+    border-radius: 24px;
+    transition: 0.35s;
+    cursor: pointer;
     height: 100%;
     width: 100%;
     outline: none;
-    color: #fff;
-    background: linear-gradient(300deg, #090979, #197909);
 }
 form .button input:hover{
     background: linear-gradient(-300deg, #090979, #197909);
